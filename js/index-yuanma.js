@@ -65,7 +65,7 @@ musicBox.onclick=function () {
 };
 
 let q=document.getElementById('q');
-let w=document.getElementById('w');
+let a=document.getElementById('a');
 let e=document.getElementById('e');
 let r=document.getElementById('r');
 let t=document.getElementById('t');
@@ -78,7 +78,7 @@ let i=document.getElementById('i');
 q.onclick=function () {
     mySwiper.slideTo(3)
 }
-w.onclick=function () {
+a.onclick=function () {
     mySwiper.slideTo(4)
 }
 e.onclick=function () {
