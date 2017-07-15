@@ -22,26 +22,34 @@ html,body,.swiper-container,.swiper-wrapper,.swiper-slide{
 
 
 .page1{
-    background:url("../img/bg1.jpg") repeat;
-    background-size: contain
+    background:url("../img/bg1.jpg") no-repeat;
+    background-size: cover
 }
 .page2{
     background:url("../img/bg01.jpg") no-repeat;
-    background-size: contain
+    background-size: cover
+
 }
 .page3{
     background:url("../img/bg2.png")no-repeat;
+    background-size: cover
+
 }
 .page4{
     overflow: hidden;
     background:url("../img/bg02.jpg")no-repeat;
+    background-size: cover
+
 }
 .page5{
     background:url("../img/bg3.jpg")no-repeat;
+    background-size: cover
+
 }
 .page6{
      background:url("../img/bg5.jpg")no-repeat;
- }
+     background-size: cover
+}
 
 
 /*第一屏*/
@@ -58,7 +66,7 @@ html,body,.swiper-container,.swiper-wrapper,.swiper-slide{
     position: absolute;
     width: 7.5rem;
     height: 6.35rem;
-    top: 7rem;
+    bottom:0;
     left: -0.2rem;
     opacity: 0;
 }
@@ -193,7 +201,7 @@ html,body,.swiper-container,.swiper-wrapper,.swiper-slide{
 }
 .page3 .nan{
     position: absolute;
-    top: 7rem;
+    bottom: 0;
     left:-1rem;
     width: 5rem;
     height: 6.5rem;
@@ -366,6 +374,7 @@ html,body,.swiper-container,.swiper-wrapper,.swiper-slide{
 
 .page5 .city{
     background: url("../img/city.png");
+    background-size: cover;
     background-position:0 0 ;
     position: absolute;
     display: block;
