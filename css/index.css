@@ -378,7 +378,7 @@ html,body,.swiper-container,.swiper-wrapper,.swiper-slide{
     background-position:0 0 ;
     position: absolute;
     display: block;
-    bottom:0rem;
+    bottom:-0.1rem;
     left: 0rem;
     width:8rem;
     height: 11rem;
